@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 
 # Load model
-with open('/Users/intansartika/Documents/dropout_dashboard/model/randomforest.pkl', 'rb') as file:
+with open('randomforest.pkl', 'rb') as file:
     model = pickle.load(file)
 
 st.title("🎓 Prediksi Potensi Dropout Mahasiswa Jaya Jaya Institute")
