@@ -63,7 +63,7 @@ streamlit run app.py
 ### Bagaiamana mencoba prototype secara online?
 Melalui link dibawah ini:
 ```
-https://student-performance-ariniamsr.streamlit.app/
+https://jaya-insitute-intansartika.streamlit.app/
 ```
 
 ## Conclusion
