@@ -49,6 +49,10 @@ Windows:
 .venv/Scripts/activate
 ```
 
+Install semua dependensi
+```
+pip install -r requirements.txt
+```
      
 ## Business Dashboard
 Dashboard dibuat dengan menggunakan Google Looker Studio. Dashboard dapat diakses pada link berikut ini:
