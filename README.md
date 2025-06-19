@@ -25,14 +25,30 @@ Cakupan proyek ini mencakup seluruh tahapan data science sebagai berikut:
   * Sumber Data: Data yang digunakan dalam proyek ini diperoleh dari repositori publik di GitHub dengan detail sebagai berikut:
     1. Link Data: [Dataset Students' Performance](https://github.com/dicodingacademy/dicoding_dataset/blob/main/students_performance/data.csv)
     2. Isi Data: Informasi mengenai atribut-atribut siswa saat tahap pendaftaran (seperti usia, jenis kelamin, dan faktor sosial-ekonomi) dan kinerja akademik mahasiswa pada akhir semester pertama dan kedua. 
-  * Setup Environment: Untuk melaksanakan proyek ini, diperlukan setup environment dengan spesifikasi sebagai berikut:
+  * Setup Environment: Untuk melaksanakan proyek ini, jalankan perintah berikut di terminal
+    
+Membuat virtual environment:
+Mac/Linux:
+```
+python3 -m venv .venv
+```
 
+Windows:
 ```
-pip install --upgrade pip setuptools wheel
-pip install numpy==1.24.4
-pip install scikit-learn==1.3.2
-pip install pandas streamlit
+python -m venv .venv
 ```
+
+Mengaktifkan virtual environment:
+Mac/Linux:
+```
+source .venv/bin/activate
+```
+
+Windows:
+```
+.venv/Scripts/activate
+```
+
      
 ## Business Dashboard
 Dashboard dibuat dengan menggunakan Google Looker Studio. Dashboard dapat diakses pada link berikut ini:
